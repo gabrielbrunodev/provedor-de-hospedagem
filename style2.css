@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    
+}
+
+.texto-azul {
+    color: #2f86d6;
+}
+
+.container-topo {
+    position: relative;
+    padding: 35px 0px;
+    height: 140px;
+    background-color: #2f86d6;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    position: absolute;
+    width: 80px;
+    left: 0;
+}
+
+.conteudo-topo div{
+    position: absolute;
+    left: 90px;
+}
+.topo-logo p {
+    font-weight: 600;
+    color: #fff;
+}
+.topo-logo h1 {
+    text-align: left;
+}
+
+.topo-links {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.topo-links a {
+    font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.conteudo-principal {
+    padding: 100px 0px;
+    max-width: 1300px;
+}
+
+.conteudo-principal table {
+    margin: auto;
+}
+
+table thead th {
+    padding: 20px 40px;
+    background-color:#f1f3f7 ;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+
+}
+
+table thead p {
+    font-size: 13px;
+    color: #a8a4a4;
+}
+
+table thead h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.celula-escondida {
+    visibility: hidden;
+}
+
+.primeira-celula {
+    padding: 20px;
+    background-color: #f1f3f7;
+    font-weight: 600;
+}
+
+table tbody td {
+    padding: 20px 40px;
+    font-weight: 500;
+    max-width: 250px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 50%;
+    
+}
+
+.rodape {
+    padding-top: 60px;
+    background-color: #2f86d6;
+  }
+  
+  .rodape-logo {
+    position: relative;
+    width: 320px;
+    margin: auto;
+    padding: 50px 0;
+  }
+  
+  .rodape-logo img {
+    width: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+  }
+  
+  .rodape-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+  }
+  
+  .rodape-logo p {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .paragrafo-rodape {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 70px;
+  }
+  
+  .container-copyright {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+  }
+  
+  .container-copyright span {
+    color: #2f86d6;
+  }

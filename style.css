@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    
+}
+
+.texto-azul {
+    color: #2f86d6;
+}
+
+.container-topo {
+    position: relative;
+    padding: 35px 0px;
+    height: 140px;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    position: absolute;
+    width: 80px;
+    left: 0;
+}
+
+.conteudo-topo div{
+    position: absolute;
+    left: 90px;
+}
+.topo-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+.topo-logo h1 {
+    text-align: left;
+}
+
+.topo-links {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.topo-links a {
+    font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #233032;
+}
+
+.banner 
+{
+    background-color: #2f86d6;
+}
+
+.conteudo-banner {
+    position: relative;
+    padding: 180px 0px;
+}
+
+.texto-banner {
+    width: 470px;
+    color: #fff;
+    word-spacing: 10px;   
+}
+
+.conteudo-banner img {
+    position: absolute;
+    width: 50%;
+    top: 100px;
+    right: 0;
+}
+
+.texto-banner p {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.texto-banner h2 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.primeiro-anuncio {
+    background-color: #233032;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.anuncio1 div {
+    width: 600px;
+}
+
+.anuncio1 div h2,p {
+    text-align: left;
+}
+
+.anuncio1 {
+    position: relative;
+}
+.anuncio1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #2f86d6;
+    padding:20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top:10%;
+}
+
+.anuncio1 a img {
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.anuncio1 span {
+    margin-left: 30px;
+}
+
+#informacoes {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#informacoes h2 {
+    width: 900px;
+    font-size: 32px;
+    margin: 0 auto 60px;
+}
+
+.info {
+    position: relative;
+    height: 240px;
+}
+
+.info div {
+    width: 33%;
+    position: absolute;
+    top: 0;
+
+}
+
+.info2 {
+    left: 343px;
+}
+
+.info3{
+    right: 0;
+}
+
+.info img {
+    width: 33%
+}
+
+.info div h3{
+    margin: 20px;
+}
+
+.info div p {
+    margin: 8px;
+}
+
+#planos {
+    background-color: #f6f6f6;
+}
+
+.tabela {
+    padding: 100px 0px;
+}
+
+.tabela h2 {
+    font-size: 32px;
+    width: 100%;
+    margin: 0 auto 60px;
+}
+
+
+table {
+    border-radius: 4px;
+    margin: auto;
+    box-shadow:0px 2px 40px 15px rgba(47, 134, 214, 1);
+}
+
+table thead th {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+table thead th h3 {
+    margin: 20px;
+}
+
+table thead th img {
+    width: 33%;
+    margin: auto;
+}
+
+table thead th p {
+    max-width: 150px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: auto;
+    color: #a89f9f;
+}
+
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.linha-impar {
+    background-color: #f6f6f6;
+}
+
+.linha-par {
+    background-color: #fff;
+}
+
+.segundo-anuncio {
+    background-color: #2f86d6;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.anuncio2 div{
+    width: 600px;
+}
+
+.anuncio2 div h2{
+    text-align: left;
+}
+
+.anuncio2 {
+    position: relative;
+}
+.anuncio2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #233032;
+    padding:20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top:10%;
+}
+
+.anuncio2 a img {
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.anuncio2 span {
+    margin-left: 30px;
+}
+
+.rodape-logo {
+    width: 320px;
+    position: relative;
+    margin: 70px auto 40px;
+    padding-bottom: 70px;
+}
+
+.rodape-logo img {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rodape-logo div {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.rodape-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.container-contatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f1f3f7;
+}
+
+.container-copyright span {
+    color: #2f86d6;
+}
